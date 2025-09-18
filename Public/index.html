@@ -47,12 +47,28 @@
         <!--Home Network Explaination-->
         <section id="home-network">
             <h2>Home Network</h2>
-            <p>*DETAILS*</p>
+            <p>In my spare time I have been using some old machines to set up some simple home network systems. I currently have two machine both running an OS called Proxmox, this is a virtualisation tool which has a simple to use web interface, if you want to find out exactly how it works there is lots of documentation on it as it can get complex to explain, but in simple it runs very lightly on the machines and lets you split the resources into as many virtual machines as you want running any OS, command line and GUI OS's work. I have 2 main running currently which is an ubuntu server and a TrueNAS server. 
+            <br><br>
+            On my ubuntu server it is setup as a webserver to run my website projects with my domain, I have also ran a some game servers on its spare resources rather than setting up a new VM. This Machine is dedicated 4GB of RAM and 2 CPU Cores, this is enough for the websites to run smoothly as they aren't expected to have a large amount of traffic. I am using Apache2 to run my webserver and I have setup a few websites on it.
+            <br><br>
+            The other TrueNAS VM is setup to run my home NAS, this helps with transferring my documents and projects throughout devices on my network, I set this up with 8GB of RAM and 4 CPU Cores to ensure that it doesn't freeze with large quantities of files being transferred. To make this even more useful I setup user account for the people who use my network so that they have somewhere to store their files.
+            <br><br>
+            I have used port forwarding for my other processes used on the network, as I am running several servers from my external IP using port forwarding I have separated where each connection is directed to, for my websites they are directed to my webserver running on 192.168.0.4 and for my games servers which I often run on my pc I have set the specific game ports to connect to 192.168.0.50 which is my PC's Static IP which I have set to ensure it is always the same.
+            <br><br>
+            This is always an ongoing progression and will be updated with more details as they are completed.</p>
         </section>
         <!--College Network Explaination-->
         <section id="college-network">
             <h2>College Network Management</h2>
-            <p>*DETAILS*</p>
+            <p>At strode college my tutor has 2 rooms which he is completely in charge of and manages himself, because of this we are able to gain hands on experience with the hardware and software behind fully functioning work environment networks. He manages one room by himself as it is stable and runs important systems, but the other room he has even me and two of my classmates the role of managing and upkeeping the network to take the pressure off of him. This requires us ensuring that safeguarding measures are in place and functioning, the system has full functionality for the pupils who use the network to access the systems.
+            <br><br>
+            Over our first year, we did a small amount of configuring with some of the spare servers and practicing setting up active directory, webservers, and more. This gave us the skills to be able to work and manage the functioning systems, this includes; the main active directory server, IPFire firewall / router, and the switch configuration.
+            <br><br>
+            On our first day back to year two, all of the network in the room we were managing went down. Originally we thought this was an issue with IPFire and reset the firewall with a fresh OS install. This didn't resolve the issue and the network was still down, we used kali Linux tools to attempt to identify what was happening, we simply tried to ping the servers which were all connected and nothing would return which meant that they weren't getting a network connection. Nmap also wouldn't would but when plugging into the wireless access point you could access to the firewall which meant everything past the switch was failing. That lead us to believe the issue was with the switch since it was web configured, connecting to the switch failed in everyway we tried. After managing to source a new switch from the college IT Department we set it all up and everything worked again, this gave us experience with using tools to test different network issues and hardware installation. Unfortunately, we had released after resetting IPFire nothing which was previously configured on the firewall was active or working. Our tutor wanted to challenge our ability to set up the Firewall and I volunteered to set it up, this was more work than would seem as it requires all of the safeguarding features for schools and also the wireless setup was very complicated.
+            <br><br>
+            The setup for the network after it had failed gave me great hands on experience with hardware installation and software configuration of a functioning network, critical thinking skills and problem solving as we had to complete a root cause analysis to ensure that the issue wouldn't occur again. These skills I have gained doing this are highly valuable and have helped improve my understand of the installation and configuration of complex and secure networks.
+            <br><br>
+            Continuing with this year me and my two classmates are in charge of managing this room for our tutor and have been given admin privileges for us to carry out password resets and software installation and updates on the Servers and Workstations. We will be setting up and configuring more things on the network to support our learning and to give demonstrations to the local community and some secondary schools which we have had in. </p>
         </section>
         <!--Experience and jobs within the industry-->
         <section id="experience">

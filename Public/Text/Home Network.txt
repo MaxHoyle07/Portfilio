@@ -1,0 +1,11 @@
+Home Network:
+
+<p>In my spare time I have been using some old machines to set up some simple home network systems. I currently have two machine both running an OS called Proxmox, this is a virtualisation tool which has a simple to use web interface, if you want to find out exactly how it works there is lots of documentation on it as it can get complex to explain, but in simple it runs very lightly on the machines and lets you split the resources into as many virtual machines as you want running any OS, command line and GUI OS's work. I have 2 main running currently which is an ubuntu server and a TrueNAS server. 
+<br><br>
+On my ubuntu server it is setup as a webserver to run my website projects with my domain, I have also ran a some game servers on its spare resources rather than setting up a new VM. This Machine is dedicated 4GB of RAM and 2 CPU Cores, this is enough for the websites to run smoothly as they aren't expected to have a large amount of traffic. I am using Apache2 to run my webserver and I have setup a few websites on it.
+<br><br>
+The other TrueNAS VM is setup to run my home NAS, this helps with transferring my documents and projects throughout devices on my network, I set this up with 8GB of RAM and 4 CPU Cores to ensure that it doesn't freeze with large quantities of files being transferred. To make this even more useful I setup user account for the people who use my network so that they have somewhere to store their files.
+<br><br>
+I have used port forwarding for my other processes used on the network, as I am running several servers from my external IP using port forwarding I have separated where each connection is directed to, for my websites they are directed to my webserver running on 192.168.0.4 and for my games servers which I often run on my pc I have set the specific game ports to connect to 192.168.0.50 which is my PC's Static IP which I have set to ensure it is always the same.
+<br><br>
+This is always an ongoing progression and will be updated with more details as they are completed.</p>
