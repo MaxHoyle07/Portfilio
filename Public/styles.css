@@ -165,6 +165,46 @@ header p{
 }
 
 
+/*Home network section*/
+#home-network{
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 20px;
+} 
+#home-network h2{
+    text-align: center;
+    color: #182c63;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}  
+#home-network p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+/*College Network Management section*/
+#college-network{
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 20px;
+}
+#college-network h2{
+    text-align: center;
+    color: #182c63;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+#college-network p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
 /*footer styles*/
 footer{
     background-color: #182c63;
