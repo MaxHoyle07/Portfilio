@@ -15,8 +15,13 @@ header{
     padding: 10px 0;
     text-align: left;
 }
-header h1{
+header .h2{
     padding-left: 300px;
+    padding-top: 10px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    font-size: 44px;
 }
 header p{
     padding-left: 300px;
