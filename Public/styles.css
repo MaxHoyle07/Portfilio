@@ -35,6 +35,12 @@ header p{
     width: 70%;
     margin: 8px auto;
 }
+.header-divider2 {
+    border: none;
+    border-top: 2px solid #7e7e7e;
+    width: 100%;
+    margin: 8px auto;
+}
 
 
 /* Main content styles */
@@ -133,7 +139,7 @@ header p{
     transform-origin: center center;
 }
 #projects ul li:hover {
-    box-shadow: 0 8px 12px rgba(24,44,99,0.15);
+    box-shadow: 0 10px 14px rgba(24,44,99,0.15);
     transform: translateY(-8px);
     transform: scale(1.05);
     cursor: default;
@@ -303,17 +309,19 @@ header p{
     padding-left: 30px;
     text-align: left;
     font-size: 20px;
+    line-height: 30px;
 }
 .skillblock {
     display: inline-block;
     background: #030303;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(24,44,99,0.08);
-    margin: 10px;
+    box-shadow: 0 4px 8px rgba(24,44,99,0.08);
+    margin: 15px;
     padding: 15px 25px;
     font-size: 16px;
     color: #7e7e7e;
-    width: 45%;
+    width: 40%;
+    height: max-content;
 }
 
 /*footer styles*/
@@ -402,4 +410,34 @@ footer{
     line-height: 1.6;
     color: #7e7e7e;
     text-align: center;
+}
+
+.btn-container2 {
+    width: 100%;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn2{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    color: whitesmoke;
+    font-size: larger;
+    text-decoration: none;
+    background-color: #030303;
+    text-align: center;
+    width: 20vh;
+    height: 20vh;
+    border: none;
+    box-shadow: #1a1a1a 0px 2px 4px;
+}
+
+.btn2:hover {
+    transform: scale(1.05);
+    box-shadow: #1a73e8 0px 4px 6px;
 }
