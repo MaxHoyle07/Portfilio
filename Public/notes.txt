@@ -1,0 +1,15 @@
+<div class="image-container">
+                <h4>Home Server setup</h4>
+                <img class="img" src="images/home server.jpg" alt="Home Server">
+            </div>
+            <div class="image-container">
+                <h4>College Network Setup</h4>
+                <p>After</p>
+                <img class="img" src="images/server 1.jpg" alt="College Network">
+                <img class="img" src="images/server 2.jpg" alt="College Network">
+                <img class="img" src="images/server 3.jpg" alt="College Network">
+                <img class="img" src="images/server 4.jpg" alt="College Network">
+                <p>Before</p>
+                <img class="img" src="images/old server 1.jpg" alt="old server">
+                <img class="img" src="images/old server 2.jpg" alt="old server">
+            </div>
