@@ -449,6 +449,12 @@ footer{
     padding: 20px;
 }
 
+.network-section2{
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 20px;
+}
+
 .network-section h2{
     text-align: center;
     color: #1c4fda;
@@ -457,11 +463,11 @@ footer{
     letter-spacing: 4px;
 }
 
-.network-section h3{
+.network-section2 h3{
     color: #1c4fda;
     font-size: 22px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .network-section p{
@@ -471,15 +477,22 @@ footer{
     text-align: center;
 }
 
+.network-section2 p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7e7e7e;
+    text-align: left;
+}
+
 /** Network section list items   Make into a card to look better!!!  **/
 
-.network-section ul {
+.network-section2 ul {
     padding-left: 20px;
     list-style: none;
 }
-.network-section li {
+.network-section2 li {
     margin-bottom: 10px;
     font-size: 18px;
     color: #7e7e7e;
-    text-align: center;
+    text-align: left;
 }
