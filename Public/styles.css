@@ -39,7 +39,7 @@ main section {
   border-radius: 20px;
   box-shadow: var(--shadow-elevated);
   padding: 48px 56px;
-  margin: 36px auto;
+  margin: clamp(28px, 6vw, 52px) auto;
   backdrop-filter: blur(14px);
   transition:
     transform 220ms ease,
@@ -165,7 +165,6 @@ header p {
 
 /* about me section */
 #about {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -179,7 +178,6 @@ header p {
 
 /* Course details section */
 #course {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -194,7 +192,6 @@ header p {
 
 /* Projects section */
 #projects {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -276,7 +273,6 @@ header p {
 
 /* Contact section */
 #contact {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -305,7 +301,6 @@ header p {
 
 /*Home network section*/
 #home-network {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -320,7 +315,6 @@ header p {
 
 /*College Network Management section*/
 #college-network {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -335,7 +329,6 @@ header p {
 
 /*Experience section*/
 #experience {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -379,7 +372,6 @@ header p {
 
 /* Skills section */
 #skills {
-  margin: 0;
   max-width: 100%;
   padding: 0;
   display: grid;
@@ -557,7 +549,6 @@ footer {
   outline-offset: 4px;
 }
 #gallery {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
@@ -616,13 +607,11 @@ footer {
 }
 
 .network-section {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
 
 .network-section2 {
-  margin: 0;
   max-width: 100%;
   padding: 0;
 }
