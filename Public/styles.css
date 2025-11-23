@@ -26,10 +26,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   min-height: 100vh;
@@ -115,11 +111,6 @@ main section p,
 main section li {
   color: var(--text-muted);
   max-width: 80ch;
-}
-
-main section p,
-main section li {
-  max-width: 78ch;
 }
 
 main section p {
@@ -433,7 +424,7 @@ header p {
 /* Experience */
 #experience {
   max-width: 100%;
-  padding: 0;
+  padding: clamp(32px, 4vw, 56px);
 }
 
 #experience h2 {
@@ -460,10 +451,11 @@ header p {
 
 #experience ul {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: grid;
   gap: 34px;
+  max-width: 960px;
 }
 
 #experience ul li {
