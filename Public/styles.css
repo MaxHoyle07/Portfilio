@@ -379,8 +379,9 @@ header p {
 #college-network,
 .network-section,
 .network-section2 {
-  max-width: 100%;
-  padding: 0;
+  max-width: min(960px, 100%);
+  padding: clamp(32px, 4vw, 56px);
+  margin: clamp(30px, 5vw, 54px) auto;
 }
 
 #home-network h2,
@@ -414,6 +415,8 @@ header p {
   list-style: none;
   display: grid;
   gap: 10px;
+  margin: 0 auto;
+  max-width: 760px;
 }
 
 .network-section2 li {
