@@ -41,7 +41,7 @@ body {
 }
 
 main {
-  max-width: 1100px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 56px 24px 84px;
 }
@@ -145,7 +145,7 @@ main section ul {
   }
 
   header {
-    padding: 26px 16px 18px;
+    padding: 20px 14px 16px;
   }
 
   header p {
@@ -161,7 +161,7 @@ header {
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(14px);
   color: var(--text-muted);
-  padding: 32px 24px 20px;
+  padding: 22px 20px 14px;
   text-align: center;
   border-bottom: 1px solid var(--border);
   box-shadow: 0 12px 40px rgba(15, 23, 42, 0.12);
@@ -171,8 +171,8 @@ header::after {
   content: "";
   display: block;
   width: min(640px, 90%);
-  height: 6px;
-  margin: 18px auto 0;
+  height: 4px;
+  margin: 12px auto 0;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
@@ -180,7 +180,7 @@ header::after {
 header .h2 {
   color: var(--text-strong);
   display: inline-block;
-  font-size: clamp(2.1rem, 2vw + 1.2rem, 3rem);
+  font-size: clamp(1.9rem, 1.4vw + 1.3rem, 2.6rem);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-decoration: none;
@@ -200,10 +200,10 @@ header .h2:focus-visible {
 }
 
 header p {
-  font-size: clamp(0.95rem, 0.6vw + 0.85rem, 1.15rem);
-  letter-spacing: 0.32em;
+  font-size: clamp(0.88rem, 0.45vw + 0.82rem, 1.05rem);
+  letter-spacing: 0.26em;
   color: var(--accent-2);
-  margin: 12px 0 0;
+  margin: 8px 0 0;
   text-transform: uppercase;
 }
 
@@ -212,7 +212,7 @@ header p {
   border: none;
   border-top: 1px solid var(--border);
   width: min(640px, 80%);
-  margin: 18px auto 0;
+  margin: 10px auto 0;
 }
 
 .header-divider2 {
